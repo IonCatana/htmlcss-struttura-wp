@@ -1,18 +1,29 @@
+/* Inizio regola generale */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
+    width: 50%;
+    margin: 0 auto;
 }
 .clearfix::after{
     content: "";
     display: block;
     clear: both;
 }
-body{
-    width: 50%;
-    margin: 0 auto;
-}
+/* Fine regola generale */
 
+/* Inizio header */
+header{
+    min-height: 100px;
+    background-color: violet;
+    width: 1400px;
+}
+/* Fine header */
+
+/* Inizio main */
 .row{
     width: 1400px; 
     margin: 0 auto;
@@ -22,19 +33,13 @@ body{
     float: left;
     min-height: 300px;
 }
-header{
-    min-height: 100px;
-    background-color: violet;
-    width: 1400px;
-}
-.debug .section-top{
+.section-top{
     margin-top: 20px;
     background-color: rgb(223, 230, 129);
     width: 1400px;
     min-height: 600px;
 }
-
-.debug .section-middle{
+.section-middle{
     margin-top: 20px;
     background-color: lightblue;
     width: 1400px;
@@ -60,11 +65,15 @@ header{
     margin-bottom: 20px;
     background-color: lightblue;    
 }
+/* Fine main */
+
+/* Inizio footer */
 footer{
     margin-top: 20px;
     background: rgb(130, 64, 218);
     width: 1400px;
     min-height: 50px;
 }
+/* Fine footer */
 
 
